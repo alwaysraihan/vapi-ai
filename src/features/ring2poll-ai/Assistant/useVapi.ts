@@ -1,4 +1,3 @@
-import { characterAssistant } from "@/assistants/character.assistant";
 import {
   Message,
   MessageTypeEnum,

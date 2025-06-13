@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { dosis } from "@/fonts/font";
 import "./globals.css";
-import Navbar from "@/features/shared/navbar/navbar";
-import Footer from "@/features/shared/footer/footer";
 
 export const metadata: Metadata = {
   title: "Ring2Poll",
