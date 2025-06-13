@@ -49,18 +49,29 @@ function Navbar() {
             <Menu className="size-10" />
           </Button>
           <ul className="lg:flex items-center gap-3 hidden ">
-            {navData.map((menu, i) => (
-              <li key={i}>
-                <Link
-                  href={"#"}
-                  className={`font-bold text-xl xl:text-[1.75rem] flex items-center gap-2.5 text-white p-3  xl:py-3.5 xl:px-5 rounded-lg focus-visible:ring-2`}
-                  style={{ backgroundColor: menu.bgColor }}
-                >
-                  <menu.icon className="text-3xl" />
-                  {menu.label}
-                </Link>
-              </li>
-            ))}
+                   {/* AI Survey Agent Button */}
+        <Link href={'/survey-agent'} className="group relative bg-white hover:bg-gray-50 text-gray-600 font-normal py-4 px-8 rounded-full border border-gray-300 shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-4 min-w-[280px] justify-center">
+          <div className="flex items-center justify-center">
+            <svg className="w-6 h-6 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 1c-4.97 0-9 4.03-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h3c1.66 0 3-1.34 3-3v-7c0-4.97-4.03-9-9-9z"/>
+              <path d="M8.5 12h2v6h-2z"/>
+              <path d="M13.5 12h2v6h-2z"/>
+            </svg>
+          </div>
+          <span className="text-sm font-medium tracking-wide">TALK TO AI-SURVEY AGENT</span>
+        </Link>
+        {/* AI Ring2Poll Button */}
+        <button className="group relative bg-white hover:bg-gray-50 text-gray-600 font-normal py-4 px-8 rounded-full border border-gray-300 shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-4 min-w-[280px] justify-center">
+          <div className="flex items-center justify-center">
+            <svg className="w-6 h-6 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 1c-4.97 0-9 4.03-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h3c1.66 0 3-1.34 3-3v-7c0-4.97-4.03-9-9-9z"/>
+              <path d="M8.5 12h2v6h-2z"/>
+              <path d="M13.5 12h2v6h-2z"/>
+            </svg>
+          </div>
+          <span className="text-sm font-medium tracking-wide">Talk to Ring2Poll</span>
+        </button>
+
           </ul>
         </RootWrapper>
       </nav>
@@ -70,18 +81,28 @@ function Navbar() {
             <SheetTitle>sidebar</SheetTitle>
           </SheetHeader>
           <ul className="flex flex-col gap-3 mt-10 ">
-            {navData.map((menu, i) => (
-              <li key={i}>
-                <Link
-                  href={"#"}
-                  className={`font-bold text-[1.75rem] flex items-center gap-2.5 text-white p-3  py-3.5 px-5 rounded-lg focus-visible:ring-2`}
-                  style={{ backgroundColor: menu.bgColor }}
-                >
-                  <menu.icon className="text-3xl" />
-                  {menu.label}
-                </Link>
-              </li>
-            ))}
+                         {/* AI Survey Agent Button */}
+        <button className="group relative bg-white hover:bg-gray-50 text-gray-600 font-normal py-4 px-8 rounded-full border border-gray-300 shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-4 min-w-[280px] justify-center">
+          <div className="flex items-center justify-center">
+            <svg className="w-6 h-6 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 1c-4.97 0-9 4.03-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h3c1.66 0 3-1.34 3-3v-7c0-4.97-4.03-9-9-9z"/>
+              <path d="M8.5 12h2v6h-2z"/>
+              <path d="M13.5 12h2v6h-2z"/>
+            </svg>
+          </div>
+          <span className="text-sm font-medium tracking-wide">TALK TO AI-SURVEY AGENT</span>
+        </button>
+        {/* AI Ring2Poll Button */}
+        <button className="group relative bg-white hover:bg-gray-50 text-gray-600 font-normal py-4 px-8 rounded-full border border-gray-300 shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-4 min-w-[280px] justify-center">
+          <div className="flex items-center justify-center">
+            <svg className="w-6 h-6 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 1c-4.97 0-9 4.03-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h3c1.66 0 3-1.34 3-3v-7c0-4.97-4.03-9-9-9z"/>
+              <path d="M8.5 12h2v6h-2z"/>
+              <path d="M13.5 12h2v6h-2z"/>
+            </svg>
+          </div>
+          <span className="text-sm font-medium tracking-wide">Talk to Ring2Poll</span>
+        </button>
           </ul>
         </SheetContent>
       </Sheet>
