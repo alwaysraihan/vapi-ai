@@ -1,4 +1,4 @@
-import { FunctionCallResultMessage } from "../../lib/types/conversation.type";
+import { FunctionCallResultMessage } from "@/lib/types/conversation.type";
 
 interface FunctionCallResultMessageProps {
   message: FunctionCallResultMessage;
