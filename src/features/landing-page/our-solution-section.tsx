@@ -12,12 +12,12 @@ function OurSolution() {
             title="Our Solutions"
             subTitle="Comprehensive Political Strategy: From Insight to Victory"
           />
-          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black">
+          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black mt-6">
             Leveraging Patented Technology & Cutting-Edge AI for Unrivaled
             Campaign Success.
           </p>
           <div className="mt-12 p-8 flex items-center justify-between flex-wrap-reverse md:flex-nowrap border border-[#CBD5E0] gap-10 rounded-[20px]">
-            <p className="text-black text-base sm:text-lg md:text-xl lg:text-[1.75rem] ">
+            <p className="text-black text-base sm:text-lg md:text-xl lg:text-2xl ">
               Ring2Poll offers an end-to-end suite of strategic solutions
               designed to empower political parties and candidates at every
               stage of the electoral cycle. Our unique blend of patented

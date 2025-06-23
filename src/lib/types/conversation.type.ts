@@ -27,7 +27,7 @@ export interface FunctionCallMessage extends BaseMessage {
   type: MessageTypeEnum.FUNCTION_CALL;
   functionCall: {
     name: string;
-    parameters: any;
+    parameters: unknown;
   };
 }
 
@@ -35,8 +35,8 @@ export interface FunctionCallResultMessage extends BaseMessage {
   type: MessageTypeEnum.FUNCTION_CALL_RESULT;
   functionCallResult: {
     forwardToClientEnabled?: boolean;
-    result: any;
-    [a: string]: any;
+    result: unknown;
+    [a: string]: unknown;
   };
 }
 

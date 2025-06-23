@@ -1,7 +1,7 @@
 interface Slide {
   image: string;
   heading: string;
-  description: string;
+  description?: string;
 }
 
 export const slides: Slide[] = [
@@ -22,5 +22,9 @@ export const slides: Slide[] = [
     heading: "From Insights to Action, \nfor Every Campaign",
     description:
       "Transforming Public Challenges into Political \nTriumph through Patented Analysis & AI",
+  },
+  {
+    image: "/heroBg4.svg",
+    heading: "Talk With Our \nAI-Survey agent & Ring2poll",
   },
 ];

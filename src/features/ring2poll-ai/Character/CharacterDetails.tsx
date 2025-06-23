@@ -18,6 +18,7 @@ function CharacterDetails() {
         const params = message.functionCall.parameters;
         setCharacterDetails((details) => ({
           ...details,
+          // @ts-expect-error - params is unknown
           [params.key.toLowerCase()]: [params.value],
         }));
       }

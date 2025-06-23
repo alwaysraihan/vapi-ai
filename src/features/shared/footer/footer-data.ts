@@ -1,4 +1,44 @@
 export const footerData = {
+  col1: {
+    label: "col1",
+    lists: [
+      {
+        id: "1",
+        name: "About Us",
+        href: "#",
+      },
+      {
+        id: "2",
+        name: "Case Studies",
+        href: "/case-studies",
+      },
+      {
+        id: "3",
+        name: "Solutions",
+        href: "#",
+      },
+    ],
+  },
+  col2: {
+    label: "col2",
+    lists: [
+      {
+        id: "1",
+        name: "Political Toolkit",
+        href: "#",
+      },
+      {
+        id: "2",
+        name: "Key Milestones",
+        href: "#",
+      },
+      {
+        id: "3",
+        name: "Values, Vision, Mission",
+        href: "#",
+      },
+    ],
+  },
   mobile: {
     label: "Mobile",
     lists: [

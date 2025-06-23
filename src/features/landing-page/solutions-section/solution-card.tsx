@@ -10,12 +10,12 @@ function SolutionCard({ solution }: { solution: Solution }) {
     >
       <Image src={solution.img} alt="solution" />
       <h4
-        className="text-xl sm:text-2xl md:text-3xl lg:text-[2.625rem] font-bold !leading-[1.19] my-1"
+        className="text-xl sm:text-2xl lg:text-[2rem] font-bold !leading-[1.19] my-1"
         style={{ color: solution.color }}
       >
         {solution.title}
       </h4>
-      <p className="text-base sm:text-lg md:text-xl lg:text-[1.75rem] !leading-[1.28]">
+      <p className="text-base sm:text-lg md:text-xl  !leading-[1.28]">
         {solution.description}
       </p>
     </div>

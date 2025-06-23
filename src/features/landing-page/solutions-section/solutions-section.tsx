@@ -12,7 +12,7 @@ function SolutionsSection() {
             title="Pioneering Solutions"
             subTitle="Our Policy Blueprints"
           />
-          <p className="text-black text-4xl leading-[1.33] max-w-[69.125rem] mt-6">
+          <p className="text-black text-xl sm:text-2xl lg:text-[2rem] leading-[1.33] max-w-[69.125rem] mt-6">
             Ring2Poll develops groundbreaking policy frameworks designed for a
             progressive and prosperous future.
           </p>

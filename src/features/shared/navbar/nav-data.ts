@@ -1,9 +1,4 @@
-import {
-  AnalyticsIcon,
-  CadreIcon,
-  CommunicationIcon,
-  InfluenceIcon,
-} from "@/icons/icons";
+import { MicIcon } from "@/icons/icons";
 
 // Type
 type NavItem = {
@@ -12,36 +7,52 @@ type NavItem = {
   href: string;
   bgColor: string;
   icon: React.ElementType;
+  path?: string;
 };
 
 // Data
 export const navData: NavItem[] = [
   {
     id: "1",
-    label: "Influence",
+    label: "Talk to AI-Survey Agent",
     href: "#",
     bgColor: "#7FBF80",
-    icon: InfluenceIcon,
+    icon: MicIcon,
   },
   {
     id: "2",
-    label: "Communication",
+    label: "Talk to Ring2Poll",
     href: "#",
     bgColor: "#009DDD",
-    icon: CommunicationIcon,
+    icon: MicIcon,
+    path: "/assistant",
   },
-  {
-    id: "3",
-    label: "Analytics",
-    href: "#",
-    bgColor: "#DBCA38",
-    icon: AnalyticsIcon,
-  },
-  {
-    id: "4",
-    label: "Cadre",
-    href: "#",
-    bgColor: "#DD5350",
-    icon: CadreIcon,
-  },
+  // {
+  //   id: "1",
+  //   label: "Influence",
+  //   href: "#",
+  //   bgColor: "#7FBF80",
+  //   icon: InfluenceIcon,
+  // },
+  // {
+  //   id: "2",
+  //   label: "Communication",
+  //   href: "#",
+  //   bgColor: "#009DDD",
+  //   icon: CommunicationIcon,
+  // },
+  // {
+  //   id: "3",
+  //   label: "Analytics",
+  //   href: "#",
+  //   bgColor: "#DBCA38",
+  //   icon: AnalyticsIcon,
+  // },
+  // {
+  //   id: "4",
+  //   label: "Cadre",
+  //   href: "#",
+  //   bgColor: "#DD5350",
+  //   icon: CadreIcon,
+  // },
 ];

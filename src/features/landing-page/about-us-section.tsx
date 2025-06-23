@@ -14,7 +14,7 @@ function AboutUs() {
             title="About Us"
             subTitle={`The Ring2Poll Journey: \nPioneering Political Analytics for Over a Decade`}
           />
-          <p className=" text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black whitespace-pre-line mt-6">
+          <p className=" text-lg sm:text-xl  text-black whitespace-pre-line mt-6">
             {text}
           </p>
         </RootWrapper>

@@ -14,7 +14,7 @@ export enum CALL_STATUS {
   LOADING = "loading",
 }
 
-export function useVapi() {
+export function useVapi(assistantId: string) {
   const [isSpeechActive, setIsSpeechActive] = useState(false);
   const [callStatus, setCallStatus] = useState<CALL_STATUS>(
     CALL_STATUS.INACTIVE
@@ -61,7 +61,7 @@ export function useVapi() {
       }
     };
 
-    const onError = (e: any) => {
+    const onError = (e: unknown) => {
       setCallStatus(CALL_STATUS.INACTIVE);
       console.error(e);
     };
@@ -88,9 +88,9 @@ export function useVapi() {
 
   const start = async () => {
     setCallStatus(CALL_STATUS.LOADING);
-    const response = vapi.start('818c01a0-5fb3-48e1-8f95-db49ee98ea8b');
+    const response = vapi.start(assistantId);
 
-    response.then((res) => {
+    response.then((res: unknown) => {
       console.log("call", res);
     });
   };
