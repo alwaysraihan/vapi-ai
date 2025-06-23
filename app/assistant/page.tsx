@@ -6,6 +6,7 @@ import { languages } from "@/features/shared/navbar/navbar";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useRef } from "react";
+import { Suspense } from "react";
 
 function AiAgent() {
   const scrollAreaRef = useRef<HTMLDivElement>(null);
@@ -81,4 +82,10 @@ function AiAgent() {
   );
 }
 
-export default AiAgent;
+export default function AssistantPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <AiAgent />
+    </Suspense>
+  );
+}
