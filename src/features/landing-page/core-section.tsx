@@ -43,7 +43,10 @@ function CoreSection() {
   ];
   return (
     <>
-      <section className="py-10 md:py-[4rem] lg:py-[6.25rem] bg-[#F9FAFB]">
+      <section
+        id="mission"
+        className="py-10 md:py-[4rem] lg:py-[6.25rem] bg-[#F9FAFB]"
+      >
         <RootWrapper>
           <SectionHeading
             title="Our Core:"

@@ -5,7 +5,10 @@ import SectionHeading from "@/components/common/section-heading";
 function ServicesSection() {
   return (
     <>
-      <section className="py-10 md:py-[4rem] lg:py-[6.25rem] bg-white">
+      <section
+        id="political-toolkit"
+        className="py-10 md:py-[4rem] lg:py-[6.25rem] bg-white"
+      >
         <RootWrapper>
           <SectionHeading title="Political Toolkit" />
           <p className="text-black text-xl sm:text-2xl lg:text-[2rem] leading-[1.33]  mt-5">

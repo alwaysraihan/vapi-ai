@@ -5,17 +5,32 @@ export const footerData = {
       {
         id: "1",
         name: "About Us",
-        href: "#",
+        href: "#about-us",
       },
+      // {
+      //   id: "2",
+      //   name: "Case Studies",
+      //   href: "/case-studies",
+      // },
       {
         id: "2",
-        name: "Case Studies",
-        href: "/case-studies",
+        name: "Solutions",
+        href: "#solutions",
       },
       {
         id: "3",
-        name: "Solutions",
-        href: "#",
+        name: "Political Toolkit",
+        href: "#political-toolkit",
+      },
+      {
+        id: "4",
+        name: "Key Milestones",
+        href: "#key-milestone",
+      },
+      {
+        id: "5",
+        name: "Values, Vision, Mission",
+        href: "#mission",
       },
     ],
   },
@@ -25,17 +40,17 @@ export const footerData = {
       {
         id: "1",
         name: "Political Toolkit",
-        href: "#",
+        href: "#political-toolkit",
       },
       {
         id: "2",
         name: "Key Milestones",
-        href: "#",
+        href: "#key-milestone",
       },
       {
         id: "3",
         name: "Values, Vision, Mission",
-        href: "#",
+        href: "#mission",
       },
     ],
   },

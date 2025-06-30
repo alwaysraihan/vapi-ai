@@ -141,7 +141,7 @@ function Navbar() {
                       setOpenLanguageSelector(true);
                     }
                   }}
-                  className={`font-medium text-lg xl:text-xl leading-[2.25rem] flex items-center justify-center gap-2.5 text-white bg-[#2E2E2E] p-3  xl:py-2.5 xl:px-9 rounded-full focus-visible:ring-2 cursor-pointer`}
+                  className={`font-medium text-lg xl:text-xl leading-[2.25rem] flex items-center justify-center gap-2.5 text-white bg-[#2E2E2E] p-3  xl:py-2.5 xl:px-9 rounded-full focus-visible:ring-2 cursor-pointer w-full`}
                   // style={{ backgroundColor: menu.bgColor }}
                 >
                   <menu.icon className="text-3xl" />

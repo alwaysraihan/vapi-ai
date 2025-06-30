@@ -1,6 +1,7 @@
 import AboutUs from "./about-us-section";
 import CoreSection from "./core-section";
 import HeroSection from "./hero-section/hero-section";
+import HeroSectionNew from "./hero-section/hero-section-new";
 import JourneySection from "./journey-section/journey-section";
 import MilestoneSection from "./milestone-section";
 import OurSolution from "./our-solution-section";
@@ -10,7 +11,8 @@ import SolutionsSection from "./solutions-section/solutions-section";
 function LandingPage() {
   return (
     <>
-      <HeroSection />
+      {/* <HeroSection /> */}
+      <HeroSectionNew />
       <JourneySection />
       <SolutionsSection />
       <ServicesSection />

@@ -23,8 +23,8 @@ export const slides: Slide[] = [
     description:
       "Transforming Public Challenges into Political \nTriumph through Patented Analysis & AI",
   },
-  {
-    image: "/heroBg4.svg",
-    heading: "Talk With Our \nAI-Survey agent & Ring2poll",
-  },
+  // {
+  //   image: "/heroBg4.svg",
+  //   heading: "Talk With Our \nAI-Survey agent & Ring2poll",
+  // },
 ];

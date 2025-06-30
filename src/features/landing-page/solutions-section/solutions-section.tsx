@@ -6,7 +6,10 @@ import { solutionData } from "./solution-data";
 function SolutionsSection() {
   return (
     <>
-      <section className="py-10 md:py-[4rem] lg:py-[6.25rem] bg-[#F9FAFB]">
+      <section
+        id="solutions"
+        className="py-10 md:py-[4rem] lg:py-[6.25rem] bg-[#F9FAFB]"
+      >
         <RootWrapper>
           <SectionHeading
             title="Pioneering Solutions"

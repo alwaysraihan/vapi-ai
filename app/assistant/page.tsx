@@ -39,7 +39,7 @@ function AiAgent() {
   }, [toggleCall]);
 
   return (
-    <main className="flex h-screen">
+    <main className="flex h-screen ">
       <div
         id="card"
         className="text-slate-950 dark:text-slate-50 w-full relative"

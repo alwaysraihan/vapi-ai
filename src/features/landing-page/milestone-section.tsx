@@ -5,7 +5,7 @@ import info from "@/assets/info.svg";
 function MilestoneSection() {
   return (
     <>
-      <section className="pb-[6.25rem] bg-white">
+      <section id="key-milestone" className="pb-[6.25rem] bg-white">
         <RootWrapper>
           <h2 className="text-center text-3xl sm:text-4xl md:text-5xl lg:text-[4rem] font-bold text-[#10182B]">
             Key Milestones
